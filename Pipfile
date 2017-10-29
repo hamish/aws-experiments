@@ -1,9 +1,12 @@
 [[source]]
+
 url = "https://pypi.python.org/simple"
 verify_ssl = true
 
-[packages]
-boto3 = "*"
 
-[packages.troposphere]
-extras = [ "policy",]
+[packages]
+
+"boto3" = "*"
+troposphere = { extras = [ "policy",] }
+"pathlib2" = "*"
+pyyaml = "*"
