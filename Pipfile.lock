@@ -1,0 +1,61 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "389114c422fe62332999f73ff26da206d0cb9b905bcf839584387cb5cf42ae2c"
+        },
+        "host-environment-markers": {
+            "implementation_name": "cpython",
+            "implementation_version": "0",
+            "os_name": "posix",
+            "platform_machine": "x86_64",
+            "platform_python_implementation": "CPython",
+            "platform_release": "16.7.0",
+            "platform_system": "Darwin",
+            "platform_version": "Darwin Kernel Version 16.7.0: Thu Jun 15 17:36:27 PDT 2017; root:xnu-3789.70.16~2/RELEASE_X86_64",
+            "python_full_version": "2.7.10",
+            "python_version": "2.7",
+            "sys_platform": "darwin"
+        },
+        "pipfile-spec": 1,
+        "requires": {},
+        "sources": [
+            {
+                "url": "https://pypi.python.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "awacs": {
+            "version": "==0.7.2"
+        },
+        "boto3": {
+            "version": "==1.4.7"
+        },
+        "botocore": {
+            "version": "==1.7.36"
+        },
+        "docutils": {
+            "version": "==0.14"
+        },
+        "futures": {
+            "version": "==3.1.1"
+        },
+        "jmespath": {
+            "version": "==0.9.3"
+        },
+        "python-dateutil": {
+            "version": "==2.6.1"
+        },
+        "s3transfer": {
+            "version": "==0.1.11"
+        },
+        "six": {
+            "version": "==1.11.0"
+        },
+        "troposphere": {
+            "version": "==2.0.2"
+        }
+    },
+    "develop": {}
+}
